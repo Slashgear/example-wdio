@@ -31,5 +31,5 @@ jobs:
       # You could also start your server process (take a look at my job for example https://github.com/Slashgear/slashgear.github.io/blob/source/.github/workflows/continuous-integration.yml)
 
       # Run your test with the same command you uses locally
-      - run: yarn wdio run wdio.conf.js
+      - run: yarn wdio run wdio-github.conf.js
         name: Running E2E tests
